@@ -12,7 +12,7 @@ class Proxmark3 < Formula
   depends_on "libusb-compat"
   depends_on "pkg-config" => :build
   depends_on "wget"
-  depends_on "nitsky/stm32/arm-none-eabi-gcc" => :build
+  depends_on "nitsky/homebrew-stm32/arm-none-eabi-gcc" => :build
 
   def install
     ENV.deparallelize
